@@ -1,0 +1,11 @@
+# Environment Configuration
+FLASK_APP=app.py
+FLASK_ENV=development
+SECRET_KEY=your-super-secret-key-change-in-production
+
+# Optional: Specify FFmpeg path if not in PATH
+# FFMPEG_PATH=/usr/bin/ffmpeg
+
+# Production settings (uncomment for production)
+# FLASK_ENV=production
+# PORT=10000
